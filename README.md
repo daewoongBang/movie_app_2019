@@ -2,7 +2,9 @@
 
 리액트에 대한 기본 개념을 익히기 위한 미니 Project
 
-React JS Fundamentals Course (2019)
+함수형 컴포넌트 + Hooks 사용
+
+React JS Fundamentals (2019.01.02)
 
 1. Setup
 
