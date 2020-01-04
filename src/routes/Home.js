@@ -27,7 +27,7 @@ const Home = () => {
   // 클래스형 컴포넌트의 componentDidMount와 componentDidUpdate를 합친 형태로 보아도 무방하다.
   useEffect(() => {
     getMovies();
-  });
+  }, []);
 
   return (
     <section className="container">
