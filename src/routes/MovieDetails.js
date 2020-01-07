@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./MovieDetails.css";
 
 const MovieDetails = props => {
   const [state, setState] = useState(null);
@@ -13,7 +14,12 @@ const MovieDetails = props => {
   }, [props]);
   console.log(state);
   if (state !== null) {
-    return <span>{state.title}</span>;
+    return (
+      <div className="movie_details">
+        <h1>{state.title}</h1>
+        <div>{state.summary}</div>
+      </div>
+    );
   } else {
     return null;
   }

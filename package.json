@@ -38,5 +38,9 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://daewoongbang.github.io/movie_app_2019"
+  "homepage": "https://daewoongbang.github.io/movie_app_2019",
+  "main": "index.js",
+  "repository": "https://daewoongBang@github.com/daewoongBang/movie_app_2019",
+  "author": "Daewoong Bang <daewoong.bang@gmail.com>",
+  "license": "MIT"
 }

@@ -4,11 +4,8 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about__container">
-      <span>
-        “Freedom is the freedom to say that two plus two make four. If that is
-        granted, all else follows.”
-      </span>
-      <span>− George Orwell, 1984</span>
+      <span>“React Movie App 2019”</span>
+      <span>− Daewoong Bang, Front-End Developer</span>
     </div>
   );
 };
