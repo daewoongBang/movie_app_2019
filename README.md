@@ -17,3 +17,5 @@ React JS Fundamentals (2019.01.02)
 4. gh-pages, build, deploy
 
 5. react-router-dom
+
+   2020.01.08 useState => useReducer로 요청 상태 관리하게끔 변경
